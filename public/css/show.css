@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    background-color: rgb(98, 98, 98);
+    color: white;
+    line-height: 75px;
+}
+
+li {
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(77, 76, 76);
+    list-style-type: none;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.card {
+    /* border-style: solid; */
+    margin: 5% 0;
+    margin-left: 10%;
+    width: 80%;
+}
+
+img {
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+.title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 3%;
+}
+
+.author {
+    color: rgb(87, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 7%;
+}
+
+.description {
+    color: rgb(87, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+}

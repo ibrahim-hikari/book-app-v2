@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Looking for a book</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <main>
+        <h2>Search by Title or Author</h2>
+        <form action="/searches" method="POST">
+            <label for="userInput">
+                <input type="text" name="keyword" placeholder="    Enter a title or author" class="search" required>
+            </label>
+            <label for="title">
+                <div class="title">
+                    <span>Title</span>
+                    <input type="radio" name="search" value="title" required>
+                </div>
+            </label>
+            <label for="author">
+                <div class="author">
+                    <span>Author</span>
+                    <input type="radio" name="search" value="author" required>
+                </div>
+            </label>
+            <div class="submit">
+                <input type="submit" value="Search the Google Books API"></input>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</body>
+
+</html>

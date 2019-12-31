@@ -1,0 +1,28 @@
+{
+  "name": "book-app-v2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim-hikari/book-app-v2.git"
+  },
+  "author": "ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibrahim-hikari/book-app-v2/issues"
+  },
+  "homepage": "https://github.com/ibrahim-hikari/book-app-v2#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "method-override": "^3.0.0",
+    "pg": "^7.17.0",
+    "superagent": "^5.1.3"
+  }
+}
