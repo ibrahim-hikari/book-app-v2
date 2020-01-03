@@ -3,84 +3,81 @@
     margin: 0px;
 }
 
-body {
-    background-color: darkgray;
-}
-
-
 main {
     text-align: center;
-    /* position: relative; */
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
     background-color: rgb(98, 98, 98);
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 75px;
 }
 
-form {
-    /* border-style: solid; */
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    /* border-style: solid; */
-    height: 60px;
-    position: relative;
-    left: 10%;
-    margin-top: 10px;
-    width: 80%;
-}
-
-.search {
-    border-radius: 5px;
-    color: black;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 550;
-    height: 50px;
-    width: 50%;
-}
-
-.author, .title {
-    background-color: rgb(219, 219, 219);
-    border-radius: 5px;
-    height: 50px;
-    line-height: 50px;
-    position: relative;
-    left: 25%;
-    text-align: left;
-    width: 50%;
-}
-
-span {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 550;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.submit {
-    /* border-style: solid; */
-    position: relative;
-    left: 10%;
-    width: 80%;
-}
-
-.submit input {
-    background-color: black;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    height: 50px;
-    width: 50%;
-}
-
-footer {
+.counter {
+    background-color: rgb(187, 184, 184);
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(98, 98, 98);
     float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 41%;
+    margin-right: -100%;
+    margin-top: 1.5%;
+    width: 30px;
+}
+
+li {
+    background-color: darkgrey;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(77, 76, 76);
+    list-style-type: none;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.card {
+    /* border-style: solid; */
+    margin: 5% 0;
+    margin-left: 10%;
+    width: 80%;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    height: 90px;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+img {
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+.title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 3%;
+}
+
+.author {
+    color: rgb(87, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 7%;
+}
+
+.description {
+    color: rgb(87, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
 }

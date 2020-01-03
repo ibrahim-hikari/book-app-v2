@@ -4,7 +4,6 @@
 }
 
 main {
-    text-align: center;
     display: flex;
     flex-direction: column;
 }
@@ -12,10 +11,8 @@ main {
 h2 {
     background-color: rgb(98, 98, 98);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 75px;
 }
-
 
 li {
     background-color: darkgrey;
@@ -24,6 +21,7 @@ li {
     list-style-type: none;
     margin-left: 25%;
     margin-top: 5%;
+    text-align: center;
     width: 50%;
 }
 
@@ -35,13 +33,13 @@ li {
 }
 
 button {
-    background-color: black;
+    background-color: rgb(83, 82, 82);
     border-radius: 10px;
     color: white;
-    font-size: 30px;
-    height: 90px;
+    font-size: 20px;
+    height: 50px;
     margin-bottom: 5%;
-    width: 80%;
+    width: 20%;
 }
 
 img {
@@ -65,6 +63,34 @@ img {
 }
 
 .description {
+    background-color: rgb(214, 212, 212);
+    border: rgb(214, 212, 212) solid;
+    border-radius: 5px;
     color: rgb(87, 85, 85);
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+}
+
+.description p {
+    /* border: solid; */
+    margin-left: 5%;
+    margin-top: 2.8%;
+    margin-bottom: 2.8%;
+    width: 90%;
+}
+
+.isbn {
+    color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+.bookshelf {
+    color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.update{
+    float: left;
+    margin-left: 20%;
 }

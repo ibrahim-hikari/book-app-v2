@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    height: 500px;
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    width: 40%;
+}
+
+input {
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    height: 40px;
+    margin-top: 2.5%;
+    width: 100%;
+}
+
+textarea {
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    height: 150px;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.submit {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.submit input {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    height: 50px;
+    width: 50%;
+}
